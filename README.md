@@ -26,7 +26,8 @@ ShopEase is an e-commerce platform where customers can interact with various ser
 ## Architecture
 ShopEase follows a microservices architecture where each service is responsible for a specific domain area. The services communicate asynchronously using Apache Kafka and synchronously using OpenFeign and RestTemplate. Distributed tracing is implemented with Zipkin and Spring Actuator, and security is enforced using Keycloak.
 
-### LINK FOR DIAGRAM
+## Architecture
+![Project Architecture](https://github.com/mksharma9560/shopease-backend-microservices/blob/master/diagrams/ShopEase_Architecture.JPG)
 
 
 ## Services
