@@ -148,7 +148,7 @@ To set up the project locally, follow these steps:
 
 **1. Clone the repository**
 
-* git clone [GitHub Repo](https://github.com/mksharma9560/shopease-backend-microservices).git
+* git clone [GitHub Repo](https://github.com/mksharma9560/shopease-backend-microservices.git)
 * cd ShopEase
 
 **2. Set up Docker**
