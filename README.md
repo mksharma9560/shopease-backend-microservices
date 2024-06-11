@@ -114,33 +114,31 @@ The project consists of the following services:
 * Provides service discovery and registration using Eureka.
 * Enables services to find and communicate with each other dynamically.
 
-Key Components:
+**Key Components:**
+* Eureka Server: Manages service registry and discovery.
 
-Eureka Server: Manages service registry and discovery.
-8. Gateway Service
-Responsibilities:
+**8. Gateway Service**
+**Responsibilities:**
 
-Acts as a gateway for routing requests to the appropriate services.
-Provides a single entry point for client requests.
-Implements API gateway pattern using Spring Cloud Gateway.
-Endpoints:
+* Acts as a gateway for routing requests to the appropriate services.
+* Provides a single entry point for client requests.
+* Implements API gateway pattern using Spring Cloud Gateway.
 
-/api/**: Routes requests to underlying services based on defined routes.
-Key Components:
+**Key Components:**
 
-Gateway Controller: Manages API routing.
-Gateway Service: Implements routing and filtering logic.
-Technologies
+* Gateway Controller: Manages API routing.
+* Gateway Service: Implements routing and filtering logic.
+
+## Technologies
 The following technologies and frameworks are used in this project:
 
-Spring Boot: Framework for building microservices
-Spring Cloud: Suite of tools for building distributed systems
-Kafka: Asynchronous messaging platform
-OpenFeign: Declarative REST client
-RestTemplate: Synchronous HTTP client
-Zipkin: Distributed tracing system
-Spring Actuator: Monitoring and management
-Keycloak: Identity and access management
-Eureka: Service discovery
-Docker: Containerization
-Kubernetes: Container orchestration
+* **Spring Boot:** Framework for building microservices
+* **Spring Cloud:** Suite of tools for building distributed systems
+* **Kafka:** Asynchronous messaging platform
+* **OpenFeign:** Declarative REST client
+* **RestTemplate:** Synchronous HTTP client
+* **Zipkin:** Distributed tracing system
+* **Spring Actuator:** Monitoring and management
+* **Keycloak:** Identity and access management
+* **Eureka:** Service discovery
+* **Docker:** Containerization
