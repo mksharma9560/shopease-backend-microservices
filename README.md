@@ -170,5 +170,5 @@ I welcome contributions from the community. To contribute, please follow these s
 * Create a new Pull Request.
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the Apache License - see the LICENSE file for details.
 
