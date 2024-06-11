@@ -142,3 +142,33 @@ The following technologies and frameworks are used in this project:
 * **Keycloak:** Identity and access management
 * **Eureka:** Service discovery
 * **Docker:** Containerization
+
+### Setup
+To set up the project locally, follow these steps:
+
+**1. Clone the repository**
+
+* git clone [GitHub Repo](https://github.com/mksharma9560/shopease-backend-microservices).git
+* cd ShopEase
+
+**2. Set up Docker**
+Ensure Docker is installed and running on your machine.
+
+**3. Start services**
+Use the provided Docker Compose file to start the services.
+
+* docker-compose up -d
+
+
+## Contributing
+I welcome contributions from the community. To contribute, please follow these steps:
+
+* Fork the repository.
+* Create a new branch (git checkout -b feature/your-feature).
+* Commit your changes (git commit -am 'Add new feature').
+* Push to the branch (git push origin feature/your-feature).
+* Create a new Pull Request.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
