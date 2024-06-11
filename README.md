@@ -1,1 +1,1 @@
-# shopease-backend-microservices
+# Spring boot microservice for learning
